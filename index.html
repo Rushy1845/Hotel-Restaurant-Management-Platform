@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Restaurant Management System</h1>
+        <nav>
+            <button id="menuBtn">Menu</button>
+            <button id="ordersBtn">Orders</button>
+            <button id="inventoryBtn">Inventory</button>
+        </nav>
+    </header>
+    <main id="content">
+        <section id="menu">
+            <h2>Menu</h2>
+            <div id="menuItems">
+                <!-- Menu items will be loaded here -->
+            </div>
+            <button id="addItemBtn">Add Item</button>
+        </section>
+        <section id="orders" style="display: none;">
+            <h2>Orders</h2>
+            <div id="orderList">
+                <!-- Orders will be listed here -->
+            </div>
+            <button id="addOrderBtn">Add Order</button>
+        </section>
+        <section id="inventory" style="display: none;">
+            <h2>Inventory</h2>
+            <div id="inventoryList">
+                <!-- Inventory items -->
+            </div>
+            <button id="addInventoryBtn">Add Item</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
